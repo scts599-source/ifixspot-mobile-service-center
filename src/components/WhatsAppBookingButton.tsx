@@ -50,7 +50,7 @@ const SIZES: Record<BtnSize, string> = {
 
 const COLORS: Record<BtnColor, string> = {
   whatsapp:
-    "bg-wa text-white shadow-lg shadow-wa/30 hover:bg-wa-dark hover:shadow-xl hover:shadow-wa/40",
+    "bg-pine text-white shadow-lg shadow-pine/20 hover:bg-pine/90 hover:shadow-xl hover:shadow-pine/30",
   dark: "bg-ink text-white shadow-lg shadow-black/20 hover:bg-zinc-800",
 };
 

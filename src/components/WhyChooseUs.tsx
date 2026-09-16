@@ -104,7 +104,7 @@ export default function WhyChooseUs() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, ease: EASE }}
             >
-              <span className="text-xs font-bold uppercase tracking-[0.2em] text-wa">
+              <span className="text-xs font-bold uppercase tracking-[0.22em] text-brass-500">
                 Why iFixSpot
               </span>
               <h2 className="font-display mt-4 max-w-md text-balance text-3xl font-extrabold leading-[1.1] tracking-tight sm:text-4xl">
@@ -127,7 +127,7 @@ export default function WhyChooseUs() {
                   transition={{ duration: 0.5, delay: (i % 2) * 0.08, ease: EASE }}
                   className="flex gap-3.5"
                 >
-                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/10 text-wa ring-1 ring-white/10">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brass-500/10 text-brass-500 ring-1 ring-brass-500/20">
                     <r.icon className="h-5 w-5" strokeWidth={2} />
                   </span>
                   <div>

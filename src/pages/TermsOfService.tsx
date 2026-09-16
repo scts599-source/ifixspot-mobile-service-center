@@ -102,8 +102,8 @@ export default function TermsOfService() {
             8. Contact Us
           </h2>
           <ul className="mt-2 list-none space-y-1 pl-0">
-            <li>📞 Phone: <a href={PHONE_LINK} className="font-semibold text-ink hover:text-red-600">{BRAND.phoneDisplay}</a></li>
-            <li>💬 WhatsApp: <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="font-semibold text-ink hover:text-red-600">Chat with us</a></li>
+            <li>📞 Phone: <a href={PHONE_LINK} className="font-semibold text-ink hover:text-brass-600">{BRAND.phoneDisplay}</a></li>
+            <li>💬 WhatsApp: <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="font-semibold text-ink hover:text-brass-600">Chat with us</a></li>
             <li>📍 {BRAND.addressLine.replace("\n", ", ")}</li>
           </ul>
         </div>

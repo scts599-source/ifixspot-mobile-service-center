@@ -31,7 +31,7 @@ export function Pill({
   return (
     <span
       className={cn(
-        "inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/70 px-3.5 py-1.5 text-xs font-semibold tracking-wide text-zinc-600 backdrop-blur",
+        "inline-flex items-center gap-2 rounded-full border border-brass-500/25 bg-white/70 px-3.5 py-1.5 text-xs font-semibold tracking-wide text-zinc-600 backdrop-blur",
         className
       )}
     >
@@ -60,10 +60,10 @@ const sizes = {
 
 const variants = {
   whatsapp:
-    "bg-wa text-white shadow-lg shadow-wa/30 hover:bg-wa-dark hover:shadow-xl hover:shadow-wa/40 hover:-translate-y-0.5",
+    "bg-pine text-white shadow-lg shadow-pine/20 hover:bg-pine/90 hover:shadow-xl hover:shadow-pine/30 hover:-translate-y-0.5",
   dark: "bg-ink text-white shadow-lg shadow-black/20 hover:bg-ink-soft hover:-translate-y-0.5",
   light:
-    "bg-white text-ink ring-1 ring-black/10 hover:bg-zinc-50 hover:ring-black/20 hover:-translate-y-0.5",
+    "bg-white text-ink ring-1 ring-brass-500/35 hover:bg-ivory hover:ring-brass-500/60 hover:-translate-y-0.5",
 };
 
 export function Button({
@@ -149,7 +149,7 @@ export function SectionHeading({
       )}
     >
       {eyebrow && (
-        <span className="text-xs font-bold uppercase tracking-[0.2em] text-wa-dark">
+        <span className="text-xs font-bold uppercase tracking-[0.22em] text-brass-600">
           {eyebrow}
         </span>
       )}

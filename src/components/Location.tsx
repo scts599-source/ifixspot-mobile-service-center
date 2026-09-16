@@ -30,7 +30,7 @@ export default function Location() {
   return (
     <section
       id="location"
-      className="relative scroll-mt-20 overflow-hidden bg-zinc-50 py-20 sm:py-28"
+      className="relative scroll-mt-20 overflow-hidden bg-ivory py-20 sm:py-28"
     >
       <Container>
         <SectionHeading
@@ -48,7 +48,7 @@ export default function Location() {
             transition={{ duration: 0.6, ease: EASE }}
             className="lg:col-span-3"
           >
-            <div className="relative overflow-hidden rounded-3xl border border-black/5 bg-white shadow-sm">
+            <div className="relative overflow-hidden rounded-2xl border border-brass-500/15 bg-white shadow-sm">
               {/* Loading skeleton */}
               {!mapLoaded && !mapError && (
                 <div className="absolute inset-0 z-10 flex items-center justify-center bg-zinc-100">
@@ -107,7 +107,7 @@ export default function Location() {
             transition={{ duration: 0.6, delay: 0.1, ease: EASE }}
             className="lg:col-span-2"
           >
-            <div className="flex h-full flex-col gap-6 rounded-3xl border border-black/5 bg-white p-7 shadow-sm">
+            <div className="flex h-full flex-col gap-6 rounded-2xl border border-brass-500/15 bg-white p-7 shadow-sm">
               <a href={STOREFRONT_PAGE} target="_blank" rel="noopener noreferrer" className="group overflow-hidden rounded-2xl border border-zinc-100 bg-zinc-100">
                 <img
                   src={STOREFRONT_IMAGE}
@@ -191,7 +191,7 @@ export default function Location() {
                       href={s.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex flex-col items-center gap-1.5 rounded-2xl border border-black/5 bg-zinc-50 py-3 text-zinc-600 transition-all hover:-translate-y-0.5 hover:border-black/10 hover:bg-ink hover:text-white"
+                      className="flex flex-col items-center gap-1.5 rounded-xl border border-brass-500/15 bg-ivory py-3 text-zinc-600 transition-all hover:-translate-y-0.5 hover:border-brass-500/35 hover:bg-ink hover:text-white"
                     >
                       <s.icon className="h-5 w-5" />
                       <span className="text-[11px] font-semibold">{s.label}</span>

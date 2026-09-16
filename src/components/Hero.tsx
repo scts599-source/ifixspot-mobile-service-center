@@ -86,20 +86,20 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="relative overflow-hidden bg-white pt-28 pb-16 sm:pt-32 lg:pt-36"
+      className="relative overflow-hidden bg-ivory pt-28 pb-16 sm:pt-32 lg:pt-36"
     >
       {/* soft background accents */}
       <div className="pointer-events-none absolute inset-0 bg-dot-grid opacity-60" />
-      <div className="pointer-events-none absolute -top-40 left-1/2 h-[36rem] w-[36rem] -translate-x-1/2 rounded-full bg-linear-to-b from-red-100/40 to-transparent blur-3xl" />
+      <div className="pointer-events-none absolute -top-40 left-1/2 h-[36rem] w-[36rem] -translate-x-1/2 rounded-full bg-linear-to-b from-brass-500/12 to-transparent blur-3xl" />
 
       <div className="relative mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-12 px-5 sm:px-8 lg:grid-cols-2 lg:gap-8">
         {/* ─── Copy ─── */}
         <div className="flex flex-col items-start">
           <motion.div variants={stagger(0)} initial="hidden" animate="show">
-            <Pill className="border-red-100 bg-red-50/60 text-red-700">
+            <Pill className="border-brass-500/25 bg-white/70 text-brass-600">
               <span className="relative flex h-2 w-2">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-500 opacity-75" />
-                <span className="relative inline-flex h-2 w-2 rounded-full bg-red-600" />
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brass-500 opacity-45" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-brass-600" />
               </span>
               📍 Physical Store at B.R Plaza, CMR Main Rd
             </Pill>
@@ -134,7 +134,7 @@ export default function Hero() {
             {!reserved ? (
               <form
                 onSubmit={handleSubmit}
-                className="overflow-hidden rounded-3xl border border-black/5 bg-white p-5 shadow-xl shadow-black/5 sm:p-6"
+                className="luxury-surface overflow-hidden rounded-2xl border border-brass-500/15 p-5 sm:p-6"
               >
                 <div className="mb-4 flex items-center justify-between">
                   <div>
@@ -145,7 +145,7 @@ export default function Hero() {
                       Get an instant price · No spam
                     </p>
                   </div>
-                  <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-red-50 text-red-600">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-brass-500/10 text-brass-600">
                     <ShieldCheck className="h-5 w-5" strokeWidth={2} />
                   </span>
                 </div>
@@ -156,7 +156,7 @@ export default function Hero() {
                     <select
                       value={device}
                       onChange={(e) => setDevice(e.target.value as DeviceSeries)}
-                      className="peer w-full appearance-none rounded-xl border border-zinc-200 bg-zinc-50/60 px-4 py-3 pr-10 text-sm text-ink outline-none transition-all focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-500/20"
+                      className="peer w-full appearance-none rounded-xl border border-brass-500/20 bg-white/70 px-4 py-3 pr-10 text-sm text-ink outline-none transition-all focus:border-brass-500 focus:bg-white focus:ring-2 focus:ring-brass-500/20"
                     >
                       <option value="">Select mobile device model</option>
                       {DEVICE_OPTIONS.map((opt) => (
@@ -173,7 +173,7 @@ export default function Hero() {
                     <select
                       value={issue}
                       onChange={(e) => setIssue(e.target.value as IssueType)}
-                      className="peer w-full appearance-none rounded-xl border border-zinc-200 bg-zinc-50/60 px-4 py-3 pr-10 text-sm text-ink outline-none transition-all focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-500/20"
+                      className="peer w-full appearance-none rounded-xl border border-brass-500/20 bg-white/70 px-4 py-3 pr-10 text-sm text-ink outline-none transition-all focus:border-brass-500 focus:bg-white focus:ring-2 focus:ring-brass-500/20"
                     >
                       <option value="">Select Issue</option>
                       {ISSUE_OPTIONS.map((opt) => (
@@ -196,10 +196,10 @@ export default function Hero() {
                         setMobile(e.target.value.replace(/\D/g, "").slice(0, 10))
                       }
                       placeholder="Mobile Number (10 digits)"
-                      className="w-full rounded-xl border border-zinc-200 bg-zinc-50/60 px-4 py-3 text-sm text-ink outline-none transition-all placeholder:text-zinc-400 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-500/20"
+                      className="w-full rounded-xl border border-brass-500/20 bg-white/70 px-4 py-3 text-sm text-ink outline-none transition-all placeholder:text-zinc-400 focus:border-brass-500 focus:bg-white focus:ring-2 focus:ring-brass-500/20"
                     />
                     {errors.mobile && (
-                      <p className="mt-1 text-xs text-red-600">{errors.mobile}</p>
+                      <p className="mt-1 text-xs text-brass-600">{errors.mobile}</p>
                     )}
                   </div>
 
@@ -214,10 +214,10 @@ export default function Hero() {
                         setPincode(e.target.value.replace(/\D/g, "").slice(0, 8))
                       }
                       placeholder="Pincode"
-                      className="w-full rounded-xl border border-zinc-200 bg-zinc-50/60 px-4 py-3 text-sm text-ink outline-none transition-all placeholder:text-zinc-400 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-500/20"
+                      className="w-full rounded-xl border border-brass-500/20 bg-white/70 px-4 py-3 text-sm text-ink outline-none transition-all placeholder:text-zinc-400 focus:border-brass-500 focus:bg-white focus:ring-2 focus:ring-brass-500/20"
                     />
                     {errors.pincode && (
-                      <p className="mt-1 text-xs text-red-600">{errors.pincode}</p>
+                      <p className="mt-1 text-xs text-brass-600">{errors.pincode}</p>
                     )}
                   </div>
 
@@ -225,7 +225,7 @@ export default function Hero() {
                   <button
                     type="submit"
                     disabled={!canSubmit || isSubmitting}
-                    className="group mt-1 flex w-full items-center justify-center gap-2 rounded-xl bg-red-600 px-5 py-3.5 text-[15px] font-bold text-white shadow-lg shadow-red-600/30 transition-all hover:bg-red-700 hover:shadow-xl hover:shadow-red-600/40 active:scale-[0.98] disabled:cursor-not-allowed disabled:bg-zinc-200 disabled:text-zinc-500 disabled:shadow-none"
+                    className="group mt-1 flex w-full items-center justify-center gap-2 rounded-xl bg-ink px-5 py-3.5 text-[15px] font-bold text-white shadow-lg shadow-black/20 transition-all hover:bg-ink-soft hover:shadow-xl hover:shadow-black/25 active:scale-[0.98] disabled:cursor-not-allowed disabled:bg-zinc-200 disabled:text-zinc-500 disabled:shadow-none"
                   >
                     {isSubmitting ? (
                       <span className="inline-flex items-center gap-2">
@@ -255,7 +255,7 @@ export default function Hero() {
                 initial={{ opacity: 0, scale: 0.96, y: 8 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{ duration: 0.5, ease: EASE }}
-                className="overflow-hidden rounded-3xl border border-red-100 bg-white p-6 shadow-xl shadow-red-600/10 sm:p-8"
+                className="luxury-surface overflow-hidden rounded-2xl border border-brass-500/20 p-6 sm:p-8"
               >
                 <div className="flex flex-col items-center text-center">
                   <span className="flex h-16 w-16 items-center justify-center rounded-full bg-green-50 text-green-600 ring-4 ring-green-100">
@@ -270,7 +270,7 @@ export default function Hero() {
 
                   <a
                     href={PHONE_LINK}
-                    className="pulse-red-strong mt-6 inline-flex w-full items-center justify-center gap-3 rounded-2xl bg-red-600 px-6 py-5 text-base font-extrabold text-white shadow-xl shadow-red-600/40 transition-transform hover:scale-[1.02] active:scale-95 sm:text-lg"
+                    className="pulse-red-strong mt-6 inline-flex w-full items-center justify-center gap-3 rounded-xl bg-ink px-6 py-5 text-base font-extrabold text-white shadow-xl shadow-black/25 transition-transform hover:scale-[1.02] active:scale-95 sm:text-lg"
                   >
                     <Phone className="h-5 w-5 sm:h-6 sm:w-6" strokeWidth={2.2} />
                     📞 Tap to Call Technician Now
@@ -296,7 +296,7 @@ export default function Hero() {
                 key={t.label}
                 className="flex items-center gap-2 text-sm font-semibold text-zinc-600"
               >
-                <t.icon className="h-5 w-5 text-red-600" strokeWidth={2.2} />
+                <t.icon className="h-5 w-5 text-brass-600" strokeWidth={2.2} />
                 {t.label}
               </div>
             ))}
@@ -346,7 +346,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.75, ease: EASE }}
             className="absolute -bottom-5 -right-2 flex items-center gap-3 rounded-2xl border border-black/5 bg-white/90 px-4 py-3 shadow-xl shadow-black/10 backdrop-blur sm:-right-4"
           >
-            <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-red-600 text-white">
+              <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-brass-600 text-white">
               <ShieldCheck className="h-5 w-5" strokeWidth={2.2} />
             </span>
             <span className="leading-tight">
@@ -371,7 +371,7 @@ export default function Hero() {
         {["No service, no charge", "Premium quality parts", "Data stays private"].map(
           (g, i) => (
             <span key={g} className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-red-600" strokeWidth={3} />
+              <Check className="h-4 w-4 text-brass-600" strokeWidth={3} />
               {g}
               {i < 2 && (
                 <span className="ml-7 hidden h-1 w-1 rounded-full bg-zinc-300 sm:inline-block" />

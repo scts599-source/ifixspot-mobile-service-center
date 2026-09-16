@@ -4,7 +4,7 @@ export default function RefundPolicy() {
   return (
     <main className="bg-white pt-28 pb-20 sm:pt-36">
       <div className="mx-auto w-full max-w-4xl px-5 sm:px-8">
-        <p className="text-sm font-semibold uppercase tracking-[0.18em] text-red-600">
+        <p className="text-sm font-semibold uppercase tracking-[0.18em] text-brass-600">
           iFixSpot policies
         </p>
         <h1 className="font-display mt-3 text-4xl font-extrabold tracking-tight text-ink sm:text-5xl">
@@ -60,10 +60,10 @@ export default function RefundPolicy() {
             {BRAND.name}\n{BRAND.addressLine}\n{BRAND.hours}
           </p>
           <div className="mt-5 flex flex-wrap gap-4 text-sm font-semibold">
-            <a href={PHONE_LINK} className="text-red-600 hover:underline">
+            <a href={PHONE_LINK} className="text-brass-600 hover:underline">
               +91 70227 18776
             </a>
-            <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">
+            <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="text-brass-600 hover:underline">
               Open store location
             </a>
           </div>

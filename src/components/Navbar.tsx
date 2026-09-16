@@ -14,7 +14,7 @@ function Logo({ onClick }: { onClick?: () => void }) {
       className="flex items-center text-ink"
     >
       <span className="font-display text-2xl font-extrabold tracking-tight leading-none">
-        i<span className="font-extrabold text-red-600">fix</span>spot
+        i<span className="font-extrabold text-brass-600">fix</span>spot
       </span>
     </a>
   );
@@ -43,7 +43,7 @@ export default function Navbar() {
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-all duration-300",
         scrolled
-          ? "border-b border-black/5 bg-white/80 backdrop-blur-xl"
+          ? "border-b border-brass-500/15 bg-ivory/85 backdrop-blur-xl"
           : "border-b border-transparent bg-transparent"
       )}
     >
@@ -55,7 +55,7 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
-              className="rounded-full px-3.5 py-2 text-sm font-medium text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-ink"
+              className="rounded-full px-3.5 py-2 text-sm font-medium text-zinc-600 transition-colors hover:bg-white hover:text-ink"
             >
               {l.label}
             </a>

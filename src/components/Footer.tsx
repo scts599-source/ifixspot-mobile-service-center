@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="col-span-2 md:col-span-1">
           <div className="flex items-center text-white">
             <span className="font-display text-2xl font-extrabold tracking-tight leading-none">
-              i<span className="font-extrabold text-red-500">fix</span>spot
+              i<span className="font-extrabold text-brass-500">fix</span>spot
             </span>
           </div>
           <p className="mt-4 max-w-xs text-sm leading-relaxed">

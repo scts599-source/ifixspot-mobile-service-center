@@ -48,7 +48,7 @@ function FaqAccordion({ item, index }: { item: FaqItem; index: number }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-40px" }}
       transition={{ duration: 0.5, delay: index * 0.06, ease: EASE }}
-      className="overflow-hidden rounded-2xl border border-black/5 bg-white transition-shadow hover:shadow-md hover:shadow-black/5"
+          className="overflow-hidden rounded-2xl border border-brass-500/15 bg-white transition-all hover:-translate-y-0.5 hover:border-brass-500/30 hover:shadow-md hover:shadow-black/5"
     >
       <button
         type="button"
@@ -57,7 +57,7 @@ function FaqAccordion({ item, index }: { item: FaqItem; index: number }) {
         className="flex w-full items-start justify-between gap-4 p-5 text-left sm:p-6"
       >
         <div className="flex items-start gap-3">
-          <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-red-50 text-red-600">
+          <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-brass-500/10 text-brass-600">
             <HelpCircle className="h-4 w-4" strokeWidth={2.2} />
           </span>
           <span className="font-display pt-0.5 text-base font-bold leading-snug text-ink sm:text-lg">

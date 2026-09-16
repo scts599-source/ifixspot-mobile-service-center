@@ -90,13 +90,13 @@ export default function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.5, delay: (i % 3) * 0.08, ease: EASE }}
-              className="group relative flex flex-col overflow-hidden rounded-3xl border border-black/5 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-black/10 hover:shadow-xl hover:shadow-black/5"
+              className="group relative flex flex-col overflow-hidden rounded-2xl border border-brass-500/15 bg-ivory/55 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-brass-500/35 hover:bg-white hover:shadow-xl hover:shadow-black/5"
             >
               {/* hover wash */}
-              <div className="pointer-events-none absolute inset-0 bg-linear-to-br from-wa/[0.06] to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+              <div className="pointer-events-none absolute inset-0 bg-linear-to-br from-brass-500/[0.08] to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
 
               <div className="relative flex items-center justify-between">
-                <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-zinc-100 text-ink transition-colors duration-300 group-hover:bg-ink group-hover:text-white">
+                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white text-brass-600 ring-1 ring-brass-500/20 transition-colors duration-300 group-hover:bg-ink group-hover:text-white">
                   <s.icon className="h-6 w-6" strokeWidth={1.9} />
                 </span>
                 <ArrowUpRight className="h-5 w-5 text-zinc-300 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-ink" />
@@ -109,7 +109,7 @@ export default function Services() {
                 {s.desc}
               </p>
 
-              <span className="relative mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-wa-dark">
+              <span className="relative mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-pine">
                 <WhatsAppIcon className="h-4 w-4" />
                 Get a quote
               </span>
@@ -123,7 +123,7 @@ export default function Services() {
             href={wa("Hi iFixSpot, I have a mobile device issue not listed here.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-semibold text-ink underline underline-offset-4 decoration-wa decoration-2 hover:text-wa-dark"
+            className="font-semibold text-ink underline underline-offset-4 decoration-brass-500 decoration-2 hover:text-brass-600"
           >
             we care for almost everything.
           </a>

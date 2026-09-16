@@ -52,7 +52,7 @@ const EASE: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
 export default function Reviews() {
   return (
-    <section id="reviews" className="relative scroll-mt-20 bg-white py-20 sm:py-28">
+    <section id="reviews" className="relative scroll-mt-20 bg-ivory py-20 sm:py-28">
       <Container>
         <SectionHeading
           eyebrow="Loved by customers"
@@ -66,7 +66,7 @@ export default function Reviews() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: EASE }}
-          className="mx-auto mt-10 flex w-fit items-center gap-4 rounded-full border border-black/5 bg-zinc-50 px-6 py-3"
+          className="mx-auto mt-10 flex w-fit items-center gap-4 rounded-full border border-brass-500/20 bg-white px-6 py-3 shadow-sm"
         >
           <div className="flex items-center gap-1 text-amber-400">
             {[...Array(5)].map((_, i) => (
@@ -85,7 +85,7 @@ export default function Reviews() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: (i % 3) * 0.08, ease: EASE }}
-              className="relative flex flex-col rounded-3xl border border-black/5 bg-white p-6 shadow-sm transition-shadow hover:shadow-lg hover:shadow-black/5"
+              className="relative flex flex-col rounded-2xl border border-brass-500/15 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:border-brass-500/30 hover:shadow-lg hover:shadow-black/5"
             >
               <Quote className="absolute right-6 top-6 h-7 w-7 text-zinc-100" />
               <div className="flex items-center gap-1 text-amber-400">
@@ -97,7 +97,7 @@ export default function Reviews() {
                 "{r.text}"
               </blockquote>
               <figcaption className="mt-5 flex items-center gap-3 border-t border-zinc-100 pt-4">
-                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-ink text-sm font-bold text-white">
+                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-ink text-sm font-bold text-brass-500">
                   {r.initials}
                 </span>
                 <span>
