@@ -3,7 +3,7 @@
 
 export const BRAND = {
   name: "iFixSpot",
-    tagline: "Physical iOS Device Care & Device Center",
+  tagline: "Mobile Device Service Center",
   phoneLocal: "70227 18776",
   phoneDisplay: "+91 70227 18776",
   phoneIntl: "917022718776",
@@ -44,7 +44,7 @@ export type RepairType = (typeof REPAIR_TYPES)[number];
 // into a custom WhatsApp automation web dashboard.
 
 export interface BookingParams {
-  /** The selected iPhone model */
+  /** The selected device model */
   deviceModel?: DeviceModel | string;
   /** The type of repair needed */
   repairType?: RepairType | string;
@@ -63,7 +63,7 @@ export interface BookingParams {
 /**
  * Builds a WhatsApp URL with a structured, machine-parseable message.
  * Example output:
- *   https://wa.me/917022718776?text=📱 Device: iPhone 15 Pro
+ *   https://wa.me/917022718776?text=📱 Device: selected model
  *   🔧 Repair: Screen Replacement
  *   👤 Name: Arun
  *   📝 Note: Screen cracked diagonally
@@ -73,7 +73,7 @@ export interface BookingParams {
  */
 export function buildWhatsAppLink(params: BookingParams = {}): string {
   const parts: string[] = [
-    "Hello iFixSpot, I would like to enquire about iOS device service.",
+    "Hello iFixSpot, I would like to enquire about mobile device service.",
   ];
 
   if (params.deviceModel) parts.push(`📱 Device: ${params.deviceModel}`);
@@ -98,7 +98,7 @@ export function buildWhatsAppLinkLegacy(message: string): string {
 
 // ─── Default / Static Links (backward compat) ───────────────────────────
 export const WHATSAPP_MESSAGE =
-  "Hi iFixSpot 👋 I saw your ad and need to get my iPhone repaired. Can you help?";
+  "Hi iFixSpot, I would like to enquire about mobile device service. Can you help?";
 
 export const WHATSAPP_LINK = buildWhatsAppLink(); // dynamic but with no params
 

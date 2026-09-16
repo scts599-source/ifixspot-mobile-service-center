@@ -142,7 +142,7 @@ export default function Footer() {
           </p>
           <p className="mt-3 leading-relaxed">
             <strong className="text-zinc-200">Trademark Disclaimer:</strong>{" "}
-            iFixSpot is an independent service center providing genuine Apple parts and device services. Parts are covered by a warranty documented in real time at the time of service. We are not an Apple Authorized Service Provider (AASP) and do not claim endorsement, sponsorship, or official affiliation with Apple Inc. “iPhone”, “Apple”, and related trademarks are the property of Apple Inc. and are utilized solely for device compatibility and descriptive identification.
+            iFixSpot is an independent mobile device service center. Compatible part options, pricing, and applicable warranty coverage are explained before service. We do not claim affiliation with any device manufacturer.
           </p>
           <a href={SOCIALS.instagram} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block text-xs text-zinc-500 hover:text-white">
             Instagram: @ifixspot

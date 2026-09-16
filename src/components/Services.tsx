@@ -24,31 +24,31 @@ const SERVICES: Service[] = [
     icon: Smartphone,
     title: "Display / Screen Replacement",
     desc: "Physical display replacement with transparent diagnosis and parts availability confirmed before service.",
-    msg: "I need an iPhone display or screen replacement. What's the price?",
+    msg: "I need a mobile device display or screen replacement. What's the price?",
   },
   {
     icon: BatteryCharging,
     title: "Battery Component Replacement",
     desc: "Physical battery component replacement after an in-person device assessment.",
-    msg: "My iPhone battery is draining fast. I'd like a replacement.",
+    msg: "My mobile device battery is draining fast. I'd like a replacement.",
   },
   {
     icon: Droplets,
     title: "Rear Glass Replacement",
     desc: "Physical rear glass replacement with the scope and risks explained before work begins.",
-    msg: "I need an iPhone rear glass replacement. What's the price?",
+    msg: "I need a mobile device rear glass replacement. What's the price?",
   },
   {
     icon: Plug,
     title: "Charging Port Replacement",
     desc: "Physical charging-port inspection and replacement for confirmed component faults.",
-    msg: "My iPhone isn't charging properly. Can you fix the port?",
+    msg: "My mobile device isn't charging properly. Can you inspect the port?",
   },
   {
     icon: Camera,
     title: "Camera Module Service",
     desc: "Physical camera-module diagnosis and replacement for confirmed hardware faults.",
-    msg: "My iPhone camera isn't working. Can you repair it?",
+    msg: "My mobile device camera isn't working. Can you inspect it?",
   },
   {
     icon: Layers,
@@ -120,7 +120,7 @@ export default function Services() {
         <p className="mt-10 text-center text-sm text-zinc-400">
           Don&apos;t see your issue? Just message us —{" "}
           <a
-            href={wa("Hi iFixSpot, I have an iOS device issue not listed here.")}
+            href={wa("Hi iFixSpot, I have a mobile device issue not listed here.")}
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold text-ink underline underline-offset-4 decoration-wa decoration-2 hover:text-wa-dark"

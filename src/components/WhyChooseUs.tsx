@@ -14,7 +14,7 @@ const REASONS = [
   {
     icon: BadgeCheck,
     title: "Premium Quality Parts",
-    desc: "We use genuine Apple parts where available, with warranty coverage documented at service.",
+    desc: "We discuss compatible part options and document warranty coverage before service.",
   },
   {
     icon: ShieldCheck,
@@ -29,7 +29,7 @@ const REASONS = [
   {
     icon: Users,
     title: "Certified Technicians",
-    desc: "Specialists trained on iOS devices with years of hands-on experience.",
+    desc: "Experienced technicians provide hands-on mobile device service.",
   },
   {
     icon: Wallet,
@@ -72,7 +72,7 @@ export default function WhyChooseUs() {
             <div className="relative overflow-hidden rounded-[2rem] ring-1 ring-white/10">
               <img
                 src={repairImg}
-                alt="iFixSpot technician servicing a premium device with precision tools"
+                alt="iFixSpot technician servicing a mobile device with precision tools"
                 width={1200}
                 height={900}
                 className="aspect-[4/3] w-full object-cover"

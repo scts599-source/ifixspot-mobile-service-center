@@ -17,7 +17,7 @@ export default defineConfig({
     tailwindcss(),
     viteSingleFile(),
     Sitemap({
-      hostname: "https://ifixspot.com",
+      hostname: "https://book.ifixspot.com",
       dynamicRoutes: [
         "/privacy-policy",
         "/terms-of-service",

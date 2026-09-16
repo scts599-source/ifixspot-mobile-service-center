@@ -135,7 +135,7 @@ export function WhatsAppBookingButton({
               htmlFor="wa-device"
               className="block text-xs font-semibold uppercase tracking-wider text-zinc-500"
             >
-              iPhone Model
+              Device Model
             </label>
             <select
               id="wa-device"

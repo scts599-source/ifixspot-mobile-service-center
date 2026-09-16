@@ -12,37 +12,37 @@ type Review = {
 const REVIEWS: Review[] = [
   {
     name: "Aarav Sharma",
-    meta: "iPhone 15 Pro · Screen",
+    meta: "Mobile device · Screen",
     initials: "AS",
     text: "Cracked my screen in the morning, walked in and it was fixed in 25 minutes. Looks brand new. Super professional and fair price!",
   },
   {
     name: "Priya Nair",
-    meta: "iPhone 13 · Battery",
+    meta: "Mobile device · Battery",
     initials: "PN",
     text: "My battery was dying within hours. Got a premium replacement and the phone lasts all day again. The service warranty gave me real confidence.",
   },
   {
     name: "Rohan Mehta",
-    meta: "iPhone 14 · Water damage",
+    meta: "Mobile device · Water damage",
     initials: "RM",
     text: "Dropped my phone in water and thought it was gone. iFixSpot recovered it completely — even my photos were safe. Lifesavers.",
   },
   {
     name: "Sneha Kapoor",
-    meta: "iPhone 12 · Charging port",
+    meta: "Mobile device · Charging port",
     initials: "SK",
     text: "Booked on WhatsApp, got a quote instantly, and the service was done same day. No pushy upselling, just honest care.",
   },
   {
     name: "Vikram Reddy",
-    meta: "iPhone 16 Pro Max · Back glass",
+    meta: "Mobile device · Back glass",
     initials: "VR",
     text: "Shattered back glass replaced flawlessly. You genuinely can't tell it was ever damaged. Highly recommend iFixSpot.",
   },
   {
     name: "Ananya Iyer",
-    meta: "iPhone 11 · Camera",
+    meta: "Mobile device · Camera",
     initials: "AI",
     text: "Front camera went black. Fixed quickly and cheaply. The team is friendly and really knows their stuff. 5 stars!",
   },

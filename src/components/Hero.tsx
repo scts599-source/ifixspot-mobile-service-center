@@ -111,7 +111,7 @@ export default function Hero() {
             animate="show"
             className="font-display mt-5 text-balance text-[2.6rem] font-extrabold leading-[1.02] tracking-tight text-ink sm:text-6xl"
           >
-            Premium iOS Device & Smartphone Hardware Service in{" "}
+            Mobile Device Repair & Hardware Service in{" "}
             <span className="dki-loc">Kalyan Nagar</span>
           </motion.h1>
 
@@ -121,7 +121,7 @@ export default function Hero() {
             animate="show"
             className="mt-6 max-w-md text-lg leading-relaxed text-zinc-500"
           >
-            Physical component replacement and diagnostics performed in front of you. 100% data privacy preserved.
+            Physical component replacement and diagnostics with clear explanations before work begins.
           </motion.p>
 
           {/* ─── The Booking Form ─── */}
@@ -158,7 +158,7 @@ export default function Hero() {
                       onChange={(e) => setDevice(e.target.value as DeviceSeries)}
                       className="peer w-full appearance-none rounded-xl border border-zinc-200 bg-zinc-50/60 px-4 py-3 pr-10 text-sm text-ink outline-none transition-all focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-500/20"
                     >
-                      <option value="">Select Device Model</option>
+                      <option value="">Select mobile device model</option>
                       {DEVICE_OPTIONS.map((opt) => (
                         <option key={opt} value={opt}>
                           {opt}
@@ -246,7 +246,7 @@ export default function Hero() {
 
                 <p className="mt-4 flex items-center justify-center gap-1.5 text-xs text-zinc-400">
                   <Lock className="h-3 w-3" />
-                  Your details are secure · We never share your info
+                  Your details are used only to respond to this enquiry
                 </p>
               </form>
             ) : (
@@ -313,7 +313,7 @@ export default function Hero() {
           <div className="relative overflow-hidden rounded-[2.25rem] border border-black/5 bg-linear-to-b from-zinc-50 to-zinc-100 shadow-2xl shadow-black/15">
             <img
               src={heroPhone}
-              alt="Premium iOS device care at ifixspot"
+              alt="Mobile device repair at iFixSpot"
               width={800}
               height={1000}
               className="aspect-[4/5] w-full object-cover"
@@ -335,7 +335,7 @@ export default function Hero() {
               ))}
             </div>
             <p className="mt-1 text-xs font-semibold text-zinc-700">
-              2,400+ happy customers
+              Local device service team
             </p>
           </motion.div>
 
@@ -351,7 +351,7 @@ export default function Hero() {
             </span>
             <span className="leading-tight">
               <span className="block text-[13px] font-bold text-ink">
-                100% Data Safe
+                Privacy-conscious service
               </span>
               <span className="block text-[11px] text-zinc-500">
                 Serviced in front of you →

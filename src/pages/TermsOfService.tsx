@@ -31,8 +31,8 @@ export default function TermsOfService() {
           </h2>
           <p>
             {BRAND.name} provides third-party premium device care, component
-            replacement, diagnostics, and restoration services for iOS and other
-            mobile devices. We are an independent service provider and are not
+            replacement, diagnostics, and restoration services for mobile
+            devices. We are an independent service provider and are not
             affiliated with, endorsed by, or sponsored by any device
             manufacturer.
           </p>

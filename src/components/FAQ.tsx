@@ -19,7 +19,7 @@ const FAQS: FaqItem[] = [
   },
   {
     q: "Does ifixspot provide quality parts service?",
-    a: "Yes, we use genuine Apple parts where available, with the applicable warranty documented at the time of service. Every replacement is explained before installation.",
+    a: "We discuss compatible part options, availability, warranty coverage, and the estimated price before installation.",
   },
   {
     q: "How long does a typical device service take?",
@@ -35,7 +35,7 @@ const FAQS: FaqItem[] = [
   },
   {
     q: "Which device models do you service?",
-    a: "We service the iPhone series listed in our booking form, including display, battery, rear glass, camera, and charging-port component work.",
+    a: "We service the models listed in our booking form, including display, battery, rear glass, camera, and charging-port component work.",
   },
 ];
 

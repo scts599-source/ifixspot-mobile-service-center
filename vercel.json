@@ -4,8 +4,8 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": "www.ifixspot.com" }],
-      "destination": "https://ifixspot.com/$1",
+      "has": [{ "type": "host", "value": "www.book.ifixspot.com" }],
+      "destination": "https://book.ifixspot.com/$1",
       "permanent": true
     }
   ],
