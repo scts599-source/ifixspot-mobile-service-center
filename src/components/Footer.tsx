@@ -130,19 +130,16 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Critical Google Ads compliance disclaimer */}
+      {/* Clear, user-facing service scope */}
       <div className="legal-disclaimer border-t border-zinc-800 bg-zinc-900 p-4 text-xs text-zinc-400">
         <div className="mx-auto w-full max-w-6xl sm:px-4">
           <p className="leading-relaxed">
-            <strong className="text-zinc-200">Explicit Walk-In &amp; Hardware Notice:</strong>{" "}
-            iFixSpot is a physical walk-in facility and on-site hardware maintenance center. We strictly perform physical hardware replacement and component diagnostics. WE DO NOT PROVIDE REMOTE DESKTOP ACCESS, ONLINE SOFTWARE TROUBLESHOOTING, ICLOUD BYPASS, PASSCODE EXTRACTION, OR DIGITAL UNLOCKING SERVICES. All operations are conducted in person by our trained technicians at our Bangalore store or directly in front of the customer during on-demand doorstep visits.
+            <strong className="text-zinc-200">Physical Hardware Service:</strong>{" "}
+            iFixSpot is an independent walk-in facility for in-person mobile device component replacement and physical assessment. Service scope, compatible parts, pricing, and applicable warranty coverage are explained before work begins.
           </p>
           <p className="mt-2 leading-relaxed">
-            <strong className="text-zinc-200">Storefront Location:</strong> Physical Walk-In Hardware Service Center located in Bengaluru, Karnataka. We specialize strictly in physical component replacements, including displays and batteries, for walk-in customers. We do not provide remote consumer technical support or software assistance.
-          </p>
-          <p className="mt-3 leading-relaxed">
-            <strong className="text-zinc-200">Trademark Disclaimer:</strong>{" "}
-            iFixSpot is an independent mobile device service center. Compatible part options, pricing, and applicable warranty coverage are explained before service. We do not claim affiliation with any device manufacturer.
+            <strong className="text-zinc-200">Independent Provider:</strong>{" "}
+            iFixSpot is not affiliated with a device manufacturer. Visit our Bengaluru storefront or contact us to confirm availability before visiting.
           </p>
           <a href={SOCIALS.instagram} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block text-xs text-zinc-500 hover:text-white">
             Instagram: @ifixspot

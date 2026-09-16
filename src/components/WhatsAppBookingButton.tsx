@@ -117,7 +117,7 @@ export function WhatsAppBookingButton({
         aria-label="Open booking form"
       >
         {expanded ? <Send className="h-4 w-4" /> : <WhatsAppIcon className="h-4 w-4" />}
-        {expanded ? "Review & Send" : label || "Book a Repair"}
+        {expanded ? "Review & Send" : label || "Book Hardware Service"}
         <ChevronDown
           className={cn(
             "h-4 w-4 transition-transform duration-200",
@@ -158,7 +158,7 @@ export function WhatsAppBookingButton({
               htmlFor="wa-repair"
               className="block text-xs font-semibold uppercase tracking-wider text-zinc-500"
             >
-              Issue / Repair Type
+              Hardware Service Type
             </label>
             <select
               id="wa-repair"

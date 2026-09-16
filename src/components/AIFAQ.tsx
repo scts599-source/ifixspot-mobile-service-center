@@ -17,7 +17,7 @@ export default function AIFAQ() {
         <div className="mt-12 grid gap-8 lg:grid-cols-2">
           <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm">
             <div className="border-b border-zinc-200 bg-zinc-100 px-6 py-4">
-              <h3 className="font-semibold">Supported Device Services</h3>
+              <h3 className="font-semibold">Available Device Services</h3>
             </div>
             <table className="w-full text-left text-sm" aria-label="Device services and descriptions">
               <tbody className="divide-y divide-zinc-200">
@@ -42,12 +42,6 @@ export default function AIFAQ() {
           </div>
 
           <div className="space-y-6">
-            <article className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm">
-              <h4 className="text-lg font-bold">Do you offer remote tech support?</h4>
-              <p className="mt-2 text-zinc-600">
-                No. iFixSpot is strictly a physical device service center. We do not provide remote desktop access, software troubleshooting, or iCloud bypassing.
-              </p>
-            </article>
             <article className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm">
               <h4 className="text-lg font-bold">Which areas do you serve in Bengaluru?</h4>
               <p className="mt-2 text-zinc-600">

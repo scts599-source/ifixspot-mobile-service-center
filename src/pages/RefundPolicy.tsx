@@ -24,14 +24,14 @@ export default function RefundPolicy() {
               The warranty covers defects in replacement displays, batteries, and
               charging ports installed by iFixSpot. It covers the installed
               component and workmanship under normal use. Physical damage, liquid
-              damage, unauthorized repair, and accidental damage are assessed
+              damage, unauthorized component work, and accidental damage are assessed
               separately.
             </p>
           </section>
 
           <section className="border-t border-zinc-200 pt-6">
             <h2 className="font-display text-2xl font-bold text-ink">
-              2. No Fix, No Fee Guarantee
+              2. No Component Replacement, No Fee Guarantee
             </h2>
             <p className="mt-3 leading-relaxed text-zinc-600">
               If an on-site diagnosis reveals that a device cannot be resolved via

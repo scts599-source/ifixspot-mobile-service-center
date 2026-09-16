@@ -111,7 +111,7 @@ export default function Hero() {
             animate="show"
             className="font-display mt-5 text-balance text-[2.6rem] font-extrabold leading-[1.02] tracking-tight text-ink sm:text-6xl"
           >
-            Mobile Device Repair & Hardware Service in{" "}
+            Mobile Device Hardware Service in{" "}
             <span className="dki-loc">Kalyan Nagar</span>
           </motion.h1>
 
@@ -142,7 +142,7 @@ export default function Hero() {
                       Book your service
                     </h3>
                     <p className="text-xs text-zinc-500">
-                      Get an instant price · No spam
+                      Request availability and pricing
                     </p>
                   </div>
                   <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-brass-500/10 text-brass-600">
@@ -238,7 +238,7 @@ export default function Hero() {
                     ) : (
                       <>
                         <span>⚡</span>
-                        Check Price &amp; Dispatch Technician
+                        Request Hardware Service
                       </>
                     )}
                   </button>
@@ -313,7 +313,7 @@ export default function Hero() {
           <div className="relative overflow-hidden rounded-[2.25rem] border border-black/5 bg-linear-to-b from-zinc-50 to-zinc-100 shadow-2xl shadow-black/15">
             <img
               src={heroPhone}
-              alt="Mobile device repair at iFixSpot"
+              alt="Mobile device hardware service at iFixSpot"
               width={800}
               height={1000}
               className="aspect-[4/5] w-full object-cover"

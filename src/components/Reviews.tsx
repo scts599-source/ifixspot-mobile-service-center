@@ -14,7 +14,7 @@ const REVIEWS: Review[] = [
     name: "Aarav Sharma",
     meta: "Mobile device · Screen",
     initials: "AS",
-    text: "Cracked my screen in the morning, walked in and it was fixed in 25 minutes. Looks brand new. Super professional and fair price!",
+    text: "Cracked my screen in the morning, walked in, and the display was replaced quickly. Professional service and fair pricing!",
   },
   {
     name: "Priya Nair",
@@ -26,7 +26,7 @@ const REVIEWS: Review[] = [
     name: "Rohan Mehta",
     meta: "Mobile device · Water damage",
     initials: "RM",
-    text: "Dropped my phone in water and thought it was gone. iFixSpot recovered it completely — even my photos were safe. Lifesavers.",
+    text: "Dropped my phone in water and needed a physical assessment. iFixSpot explained the options clearly and handled the hardware service carefully.",
   },
   {
     name: "Sneha Kapoor",
@@ -38,13 +38,13 @@ const REVIEWS: Review[] = [
     name: "Vikram Reddy",
     meta: "Mobile device · Back glass",
     initials: "VR",
-    text: "Shattered back glass replaced flawlessly. You genuinely can't tell it was ever damaged. Highly recommend iFixSpot.",
+    text: "Shattered back glass replaced cleanly. The team explained the scope before starting. Highly recommend iFixSpot.",
   },
   {
     name: "Ananya Iyer",
     meta: "Mobile device · Camera",
     initials: "AI",
-    text: "Front camera went black. Fixed quickly and cheaply. The team is friendly and really knows their stuff. 5 stars!",
+    text: "The camera module needed attention. The team explained the component option clearly and worked efficiently. 5 stars!",
   },
 ];
 

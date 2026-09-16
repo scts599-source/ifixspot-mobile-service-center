@@ -44,7 +44,7 @@ export default function TermsOfService() {
             When you submit a booking through our form, you authorize us to
             contact you on the provided mobile number to confirm the service
             slot, pricing, and dispatch details. We reserve the right to decline
-            service if device damage is beyond reasonable repair.
+            service if device damage is beyond practical component replacement.
           </p>
 
           <h2 className="mt-8 font-display text-xl font-bold text-ink">

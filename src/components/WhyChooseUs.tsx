@@ -28,7 +28,7 @@ const REASONS = [
   },
   {
     icon: Users,
-    title: "Certified Technicians",
+    title: "Experienced Technicians",
     desc: "Experienced technicians provide hands-on mobile device service.",
   },
   {
