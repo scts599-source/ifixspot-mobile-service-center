@@ -56,7 +56,7 @@ export default function Hero() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("https://formspree.io/f/moeqrpwg", {
+      const response = await fetch("https://formspree.io/f/xgavenoq", {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -67,7 +67,7 @@ export default function Hero() {
           issue: issue || "Unknown",
           mobile: mobile || "Unknown",
           pincode: pincode || "Unknown",
-          source: "Hero Booking Form",
+          source: "Google Leads",
         }),
       });
 
